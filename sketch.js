@@ -1,8 +1,7 @@
 const flock = []
-let alignSlider, cohesionSlider, separationSlider
+
 function setup() {
   createCanvas(400, 400)
-
   for (let i = 0; i < 100; i++) {
     flock.push(new Boid())
   }
